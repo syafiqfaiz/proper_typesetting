@@ -4,11 +4,20 @@
     will how you center it inside its parent container.
 
     See: http://bluerobot.com/web/css/center1.html
-    
+
     Don't change the container width.
   */
-  margin: 0 auto;  
+  margin: 0 auto;
   width: 720px;
+}
+
+header {
+  margin-top: 100px;
+  margin-bottom: 70px;
+  font-family:  Sans-serif;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: grey;
 }
 
 small.page_no {
@@ -28,4 +37,18 @@ small.page_no {
 
 .pagination a.disabled {
   color: #ccc;
+}
+
+p {
+  line-height: 150%;
+  font-family: serif;
+}
+
+blockquote {
+  font-family: serif;
+  font-style: italic;
+}
+
+footer {
+  font-family: serif;
 }
